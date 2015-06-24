@@ -1,4 +1,4 @@
-package com.github.sckit;
+package com.github.webapp;
 
 import java.awt.Desktop;
 import java.net.URI;
