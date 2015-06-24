@@ -1,0 +1,43 @@
+.mixed {
+    display: none;
+}
+
+.separated {
+    display: block;
+}
+
+.sequential{
+    display: block;
+}
+
+.random{
+    display: none;
+}
+
+.box {
+    float: left;
+    margin: 5pt;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid;
+    padding: 3px;
+}
+
+.boxContainer{
+    overflow: hidden;
+}
+
+.boxContainer:before,
+.boxContainer:after {
+    content: "";
+    display: table;
+}
+
+.boxContainer:after {
+    clear: both;
+}
